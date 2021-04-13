@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="easyexcel-demo" />
+        <module name="kafka-consumer" />
+        <module name="redssion-demo" />
+        <module name="kafka-producer" />
+        <module name="dingdinglogin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dingdinglogin" target="1.8" />
+      <module name="easyexcel-demo" target="1.8" />
+      <module name="kafka-consumer" target="1.8" />
+      <module name="kafka-producer" target="1.8" />
+      <module name="redssion-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dingdinglogin" options="-parameters" />
+      <module name="easyexcel-demo" options="-parameters" />
+      <module name="kafka-consumer" options="-parameters" />
+      <module name="kafka-producer" options="-parameters" />
+      <module name="redssion-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

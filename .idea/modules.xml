@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/demo.iml" filepath="$PROJECT_DIR$/.idea/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dingdinglogin/dingdinglogin.iml" filepath="$PROJECT_DIR$/dingdinglogin/dingdinglogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyexcel-demo/easyexcel-demo.iml" filepath="$PROJECT_DIR$/easyexcel-demo/easyexcel-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-consumer/kafka-consumer.iml" filepath="$PROJECT_DIR$/kafka-consumer/kafka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-producer/kafka-producer.iml" filepath="$PROJECT_DIR$/kafka-producer/kafka-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redssion-demo/redssion-demo.iml" filepath="$PROJECT_DIR$/redssion-demo/redssion-demo.iml" />
+    </modules>
+  </component>
+</project>
