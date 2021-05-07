@@ -17,6 +17,10 @@
         <option value="$PROJECT_DIR$/dingdinglogin/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-producer/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/aop-log/pom.xml" />
+        <option value="$PROJECT_DIR$/abc-pay/pom.xml" />
       </list>
     </option>
   </component>

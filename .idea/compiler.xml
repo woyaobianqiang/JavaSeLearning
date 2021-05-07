@@ -7,27 +7,41 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="easyexcel-demo" />
-        <module name="kafka-consumer" />
         <module name="redssion-demo" />
-        <module name="kafka-producer" />
+        <module name="easyexcel-demo" />
         <module name="dingdinglogin" />
+        <module name="abc-pay" />
+        <module name="kafka-consumer" />
+        <module name="rabbitmq-consumer" />
+        <module name="kafka-producer" />
+        <module name="rabbitmq" />
+        <module name="aop-log" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="abc-pay" target="1.8" />
+      <module name="aop-log" target="1.8" />
       <module name="dingdinglogin" target="1.8" />
       <module name="easyexcel-demo" target="1.8" />
       <module name="kafka-consumer" target="1.8" />
       <module name="kafka-producer" target="1.8" />
+      <module name="rabbitmq" target="1.8" />
+      <module name="rabbitmq-consumer" target="1.8" />
+      <module name="rabbitmq-demo" target="1.8" />
       <module name="redssion-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="abc-pay" options="-parameters" />
+      <module name="aop-log" options="-parameters" />
       <module name="dingdinglogin" options="-parameters" />
       <module name="easyexcel-demo" options="-parameters" />
       <module name="kafka-consumer" options="-parameters" />
       <module name="kafka-producer" options="-parameters" />
+      <module name="rabbitmq" options="-parameters" />
+      <module name="rabbitmq-consumer" options="-parameters" />
+      <module name="rabbitmq-demo" options="-parameters" />
       <module name="redssion-demo" options="-parameters" />
     </option>
   </component>
