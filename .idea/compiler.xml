@@ -9,11 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="redssion-demo" />
         <module name="easyexcel-demo" />
+        <module name="kafka-producer" />
         <module name="dingdinglogin" />
-        <module name="abc-pay" />
         <module name="kafka-consumer" />
         <module name="rabbitmq-consumer" />
-        <module name="kafka-producer" />
+        <module name="sharding" />
         <module name="rabbitmq" />
         <module name="aop-log" />
       </profile>
@@ -25,10 +25,12 @@
       <module name="easyexcel-demo" target="1.8" />
       <module name="kafka-consumer" target="1.8" />
       <module name="kafka-producer" target="1.8" />
+      <module name="mybatis-sharding" target="1.8" />
       <module name="rabbitmq" target="1.8" />
       <module name="rabbitmq-consumer" target="1.8" />
       <module name="rabbitmq-demo" target="1.8" />
       <module name="redssion-demo" target="1.8" />
+      <module name="sharding" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -39,10 +41,12 @@
       <module name="easyexcel-demo" options="-parameters" />
       <module name="kafka-consumer" options="-parameters" />
       <module name="kafka-producer" options="-parameters" />
+      <module name="mybatis-sharding" options="-parameters" />
       <module name="rabbitmq" options="-parameters" />
       <module name="rabbitmq-consumer" options="-parameters" />
       <module name="rabbitmq-demo" options="-parameters" />
       <module name="redssion-demo" options="-parameters" />
+      <module name="sharding" options="-parameters" />
     </option>
   </component>
 </project>

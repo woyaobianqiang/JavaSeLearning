@@ -1,0 +1,51 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+sharding:
+  jdbc:
+    datasource:
+      names: ds0 #库
+      ds0:
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://192.168.218.194:3306/ds0?characterEncoding=utf-8&&serverTimezone=GMT%2B8
+        username: root
+        password: 90-iopjklnm,
+
+    config:
+      sharding:
+        props:
+          sql.show: true
+        tables:
+          user: #表
+            actual-data-nodes: ds0.user_$->{2020..2099}0$->{1..9},ds0.user_$->{2020..2099}1$->{0..2} #表节点
+            table-strategy:
+              inline: #分表策略-inline
+                sharding-column: sys_order_id
+                algorithm-expression: user_$->{sys_order_id[2..7]} #截取该字段的2-7位决定落在哪张表
+
+#sharding:
+#  jdbc:
+#    datasource:
+#      names: ds0 # 数据源ds0
+#      ds0:
+#        type: com.zaxxer.hikari.HikariDataSource
+#        driver-class-name: com.mysql.cj.jdbc.Driver
+#        jdbc-url: jdbc:mysql://192.168.218.194:3306/ds0?characterEncoding=utf-8&&serverTimezone=GMT%2B8
+#        username: root
+#        password: 90-iopjklnm,
+#
+#    config:
+#      sharding:
+#        props:
+#          sql.show: true
+#        tables:
+#          monitor_log:  #user表
+##            key-generator-column-name: id  #主键
+#            actual-data-nodes: ds0.monitor_log_$->{2020..2099}0$->{1..9},ds0.monitor_log_$->{2020..2099}1$->{0..2}
+#            table-strategy:  #分表策略
+#              inline: #行表达式
+#                sharding-column: sys_order_id
+#                algorithm-expression: monitor_log_$->{sys_order_id[2..7]}
+server:
+  port: 8083

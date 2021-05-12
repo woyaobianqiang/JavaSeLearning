@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/abc-pay/abc-pay.iml" filepath="$PROJECT_DIR$/abc-pay/abc-pay.iml" />
       <module fileurl="file://$PROJECT_DIR$/aop-log/aop-log.iml" filepath="$PROJECT_DIR$/aop-log/aop-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/demo.iml" filepath="$PROJECT_DIR$/.idea/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dingdinglogin/dingdinglogin.iml" filepath="$PROJECT_DIR$/dingdinglogin/dingdinglogin.iml" />
@@ -12,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-demo/src/main/main.iml" filepath="$PROJECT_DIR$/rabbitmq-demo/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/redssion-demo/redssion-demo.iml" filepath="$PROJECT_DIR$/redssion-demo/redssion-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharding/sharding.iml" filepath="$PROJECT_DIR$/sharding/sharding.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-demo/src/test/test.iml" filepath="$PROJECT_DIR$/rabbitmq-demo/src/test/test.iml" />
     </modules>
   </component>

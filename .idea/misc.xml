@@ -20,7 +20,7 @@
         <option value="$PROJECT_DIR$/rabbitmq-producer/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/aop-log/pom.xml" />
-        <option value="$PROJECT_DIR$/abc-pay/pom.xml" />
+        <option value="$PROJECT_DIR$/sharding/pom.xml" />
       </list>
     </option>
   </component>
