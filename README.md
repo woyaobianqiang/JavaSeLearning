@@ -6,6 +6,8 @@
 
 # easyexcel-demo：阿里巴巴easyexcel导入导出，模板下载功能
 
+# redisson：redisson分布式锁
+
 # rabbitmq:：rabbitmq发送接收消息
 
 # sharding：使用shardingsphere完成分库分表功能
